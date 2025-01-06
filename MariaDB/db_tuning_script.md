@@ -1,6 +1,6 @@
 # mariadb로 진행한 쿼리 튜닝 기법
 
-```mariadb
+```sql
 select emp.EMP_ID , emp.FIRST_NAME , emp.LAST_NAME , grade.GRADE_NAME 
 from GRADE grade, EMP emp
 WHERE grade.GRADE_NAME = 'Staff'
